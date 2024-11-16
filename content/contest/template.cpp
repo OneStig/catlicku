@@ -7,6 +7,5 @@ typedef int uci;
 #define all(a) (a).begin(), (a).end()
 
 uci main() {
-    cin.tie(0)->sync_with_stdio(0);
-    cin.exceptions(cin.failbit);
+    ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 }
